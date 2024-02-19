@@ -1,0 +1,125 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+
+    background: url(./formbgc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+}
+
+#logo {
+    position: absolute;
+    aspect-ratio: 1/1;
+    height: 42px;
+    top: 10px;
+    left: 15px;
+}
+
+main section h2 {
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+#welcomeSection {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcomeSection h1 {
+    font-size: 4rem;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+
+#welcomeSection p {
+    color: #d9d9d9;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#SignForm {
+    flex: 1.3;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50px 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#SignForm form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 40px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: rgb(22, 22, 22);
+}
+
+.form-group input {
+    border: none;
+    border-bottom: solid 1px rgb(120, 120, 120);
+    font-size: 0.91rem;
+
+}
+
+.form-group input:focus {
+    outline: none;
+    font-size: 1.1rem;
+
+}
+
+form p {
+    align-self: flex-end;
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    align-self: center;
+    padding: 0.5em 2.3em;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background-color: #2448CA;
+    color: white;
+    border-radius: 100px;
+}
+
+input[type=submit]:hover {
+    background-color: #1a39a9;
+}
